@@ -1,5 +1,24 @@
-# ReactLoginSignupUITemplate
+BankingSystem
+====================
+A [react][1]  based frontend application of bank system project. 
 
-Build React Login & Sign Up UI Template with Bootstrap 4 - Create React authentication system such as login and sign up template using Bootstrap 4.
+## Requirements
+1. react 
+1. yarn 1.12+
+1. bootstrap
 
-[Build React Login & Sign Up UI Template with Bootstrap 4](https://www.positronx.io/build-react-login-sign-up-ui-template-with-bootstrap-4/)
+
+
+## Instructions
+1. Install all dependency using yarn install
+    ```bash
+    ```
+
+
+
+
+
+1. Run application
+    ```bash
+    $ yarn start
+    ```  
