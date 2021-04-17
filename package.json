@@ -1,11 +1,13 @@
 {
-  "name": "react-login-signup-ui-template",
+  "name": "bankingsystemfrontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "bootstrap": "^4.6.0",
+    "install": "^0.13.0",
+    "react": "^15.1.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^15.1.1",
     "react-router-dom": "^5.1.0",
     "react-scripts": "3.1.2"
   },
