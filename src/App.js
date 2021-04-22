@@ -2,7 +2,7 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 import Login from "./components/login";
 import SignUp from "./components/signup";
 import profile from "./components/profile"
@@ -26,9 +26,6 @@ function App() {
           </div>
         </div>
       </nav>
-
-      {/* <div className="auth-wrapper">
-        <div className="auth-inner"> */}
           <Switch>
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
@@ -36,10 +33,7 @@ function App() {
             <Route path="/me/profile" component={profile} />
             <Route path="*" component={()=> "404 Not Found"}/>
           </Switch>
-        {/* </div>
-      </div> */}
     </div></Router>
   );
 }
-
 export default App;

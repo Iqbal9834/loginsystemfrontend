@@ -33,6 +33,7 @@ export default class Login extends Component {
                 if(result.status==200){
                     localStorage.setItem('auth', JSON.stringify(res.data.auth_token))
                     alert(localStorage.getItem('auth'))
+                    this.history.push("/me/profile")
                 }
                 console.log(res)
             })
