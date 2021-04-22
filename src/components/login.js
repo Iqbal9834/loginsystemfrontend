@@ -21,7 +21,7 @@ export default class Login extends Component {
         let obj = {}
         obj.email = this.state.email
         obj.password = this.state.password
-        fetch('http://127.0.0.1:8000/v1/login',{
+        fetch('http://127.0.0.1:8000/v1/auth/login/',{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -31,7 +31,7 @@ export default class Login extends Component {
         }).then((result)=>{
             result.json().then((res)=>{
                 if(result.status==200){
-                    localStorage.setItem('auth', JSON.stringify(res.accessToken))
+                    localStorage.setItem('auth', JSON.stringify(res.data.auth_token))
                     alert(localStorage.getItem('auth'))
                 }
                 console.log(res)
