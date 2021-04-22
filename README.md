@@ -1,4 +1,4 @@
-BankingSystem
+LoginSystem
 ====================
 A [react][1]  based frontend application of bank system project. 
 
